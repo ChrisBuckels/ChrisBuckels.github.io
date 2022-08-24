@@ -54,13 +54,13 @@ h1 {
 .button-list {
  display: flex;
  flex-wrap: wrap;    
- padding: 55px;  
+ padding: 0 55px;  
 }
 
 .menu_item {
  list-style: none;
- width:50%;
- margin:15px;   
+ width:9rem;
+ margin:1rem;   
 }
 
 .menu_item button {
