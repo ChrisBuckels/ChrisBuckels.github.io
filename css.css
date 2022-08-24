@@ -41,8 +41,6 @@ h1 {
  position:absolute;
  top:5%;
  left:5%;
- opacity:0;
- z-index:1;
 }
 
 .close-div {
