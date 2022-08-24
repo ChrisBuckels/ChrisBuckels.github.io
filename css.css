@@ -72,7 +72,7 @@ h1 {
  box-shadow: 3px 4px 10px black; 
 }
 
-.menu_item:hover button {
+#headerDiv .menu_item:hover button {
  background-color: black;
  color: white;
  font-weight: 900;
