@@ -1,7 +1,8 @@
 
 
 function aboutButton() {
-  var aboutUs = document.getElementById("aboutBlock") ;  
+  var aboutUs = document.getElementById("aboutBlock") ; 
+  var computed = window.getComputedStyle(aboutUs, null);
   if (aboutUs.style.opacity === "0") {
     aboutUs.style.opacity = "1" ;
     aboutUs.style.zIndex = "3" ;
