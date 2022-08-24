@@ -44,7 +44,6 @@ h1 {
 }
 
 .close-div {
- width:100%;   
  text-align:right; 
  display: flex;  
  justify-content: flex-end; 
