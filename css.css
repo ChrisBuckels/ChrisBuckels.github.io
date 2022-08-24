@@ -75,7 +75,7 @@ h1 {
 }
 
 #headerDiv .menu_item:hover button {
- background-color: black;
+ background-color: #42b2da;
  color: white;
  font-weight: 900;
  font-size: 18px;
