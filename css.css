@@ -52,7 +52,8 @@ h1 {
 }
 
 .button-list {
- display:flex;   
+ display: flex;
+ padding: 55px;  
 }
 
 .menu_item {
