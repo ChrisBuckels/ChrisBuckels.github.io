@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="css.css"> 
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <script src="js.js"></script>      
+
+    <title>Chris Buckels CV</title>
+
+    <script>
+
+        var drops = "rain-drop";     
+        
+        </script>
+        
+        <style>
+        .rain-drop {
+          position: absolute;
+          bottom: 100%;
+          width: 1px;
+          height: 40px;
+          pointer-events: none;
+          animation: drop 1s linear infinite;
+          background-color:#ea00d9;
+          transition:0.5s;
+        }   
+        @keyframes drop {
+          0% {
+            transform: translateY(0vh);
+          }
+          75% {
+            transform: translateY(90vh);
+            height:20px;
+            width:5px;
+          }
+          100% {
+            transform: translateY(90vh);
+            opacity:0.1;
+            height:0px;
+          }
+        }
+        
+        body {
+         background-color:#091833;  
+         height:100vh; 
+        }
+        
+        </style>    
+
+</head>
+
+<body>
+    
+    <div class="rain-drop"></div>
+    <div class="rain-drop2"></div>   
+
+</div>
+
+</body>
+
+</html>
