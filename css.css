@@ -1,7 +1,5 @@
 body {
- background-color: white;
- background-size: 20px 35px;
- background-image:  repeating-linear-gradient(0deg, #444cf7, #444cf7 1px, white 1px, white);  
+ background-color: #3FA0EF;
 }
 
 h1 {
@@ -11,7 +9,6 @@ h1 {
 }
 
 .header-div {
- background-color: #3FA0EF; 
  transition:0.3s;
  position:relative;
  z-index:2;
